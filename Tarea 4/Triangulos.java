@@ -11,7 +11,7 @@ public class Triangulos {
     altura = lector.nextInt();
 
 
-        for (int i = 1; i <= altura; i++) { // Abre for
+        for (int i = 1; i <= altura; i++) {
             for (int j = 1; j <= i; j++)
                 System.out.print("*");
 
@@ -52,9 +52,9 @@ public class Triangulos {
                 System.out.print("*");
 
             System.out.println();
-        } // Cierra for
+        }
 
         System.out.println("\n");
-    } // Cierra metodo Imprime
+    } 
 
-} // Cierra clase Deitel_5_15
+} 
